@@ -20,35 +20,22 @@ copyBtn.addEventListener("click", () => {
 
 
 //Evento para mostrar y ocultar menú
-    function open_close_menu(){
-        if (window.innerWidth > 760){
-            body.classList.toggle("body_move");
-            side_menu.classList.toggle("menu__side_move");
-        }else{
-            body.classList.add("body_move");
-            side_menu.classList.add("menu__side_move");
-        }
-       
+function open_close_menu() {
+    if (window.innerWidth > 760) {
+        body.classList.toggle("body_move");
+        side_menu.classList.toggle("menu__side_move");
     }
-
+}
 //Ejecutar función en el evento click
 btn_open.addEventListener("click", open_close_menu);
-
-
 //Haciendo el menú responsive(adaptable)
 
 window.addEventListener("resize", function(){
-
-    if (window.innerWidth > 760){
-
+    if (window.innerWidth > 760) {
         body.classList.remove("body_move");
         side_menu.classList.remove("menu__side_move");
-    }
-
-    if (window.innerWidth < 760){
-
+    } else {
         body.classList.add("body_move");
         side_menu.classList.add("menu__side_move");
     }
-
 });
