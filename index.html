@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="img/perfil.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Web</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@400;900&family=Open+Sans:wght@300;400;800&family=Roboto:wght@400;700;900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="body">
+
+    <header>
+      <div class="icon__menu">
+          <i class="fas fa-bars" id="btn_open"></i>
+      </div>
+
+      <div class="menu__mobile">	
+
+          <a href="#Home" class="selected">
+              <div class="option">
+                  <i class="fas fa-home" title="Inicio"></i>
+                  <h4>Inicio</h4>
+              </div>
+          </a>
+
+          <a href="#Portafolio" >
+              <div class="option">
+                  <i class="far fa-file" title="Portafolio"></i>
+                  <h4>Proyectos</h4>
+              </div>
+          </a>
+
+          <a href="#Educacion">
+              <div class="option">
+                <i class="bi bi-mortarboard-fill"></i>
+                  <h4>Educación</h4>
+              </div>
+          </a>
+
+          <a href="#Contacto">
+              <div class="option">
+                  <i class="far fa-id-badge" title="Contacto"></i>
+                  <h4>Contacto</h4>
+              </div>
+          </a>
+
+      </div>
+  </header>
+
+  <div class="menu__side" id="menu_side">
+
+      <div class="name__page">
+          <i class="bi bi-code"></i>
+          <h4>Josting Hdez</h4>
+      </div>
+
+      <div class="options__menu">	
+
+          <a href="#Home" class="selected">
+              <div class="option">
+                  <i class="fas fa-home" title="Inicio"></i>
+                  <h4>Inicio</h4>
+              </div>
+          </a>
+
+          <a href="#Portafolio">
+              <div class="option">
+                  <i class="far fa-file" title="Portafolio"></i>
+                  <h4>Proyectos</h4>
+              </div>
+          </a>
+
+          <a href="#Educacion">
+              <div class="option">
+                <i class="bi bi-mortarboard-fill"></i>
+                  <h4>Educacion</h4>
+              </div>
+          </a>
+          <a href="#Skills">
+            <div class="option">
+              <i class="bi bi-code-square"></i>
+                <h4>Skills</h4>
+            </div>
+        </a>
+
+          <a href="#Contacto">
+              <div class="option">
+                  <i class="far fa-id-badge" title="Contacto"></i>
+                  <h4>Contacto</h4>
+              </div>
+          </a>
+
+
+      
+
+      </div>
+
+  </div>
+
+  <main>
+
+   <div id="Home" class="home">
+      <img class="home__img" src="img/perfil.jpg" alt="imagen perfil">
+      <div class="home__info">
+        <h1>Hola, soy Josting Hernández</h1>
+        <h3>Estudiante de Desarrollo Web</h3>
+        <p>Mi principal objetivo es entrar en el mundo laboral a través de prácticas en desarrollo web. A largo plazo, aspiro a combinar mi experiencia en desarrollo web con mi interés en Administración de Empresas (ADE), retomando mis estudios en esta área para explorar la intersección entre tecnología y finanzas.</p>
+      
+        <div class="home__enlaces">
+          <a rel="noopener" target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer"><i class="bi bi-github"> GitHub</i></a>
+          <a target="_blank"  class="proyecto__enlace" href="cvoficial.pdf"> <i class="bi bi-file-person"> Curriculum Vitae</i></a>
+        
+        </div>
+      
+      </div>
+     
+   </div>
+
+   <section id="Portafolio" class="portafolio">
+      <h2><i class="bi bi-arrow-right"></i>Proyectos</h2>
+      <div class="grid">
+              <div class="proyecto">
+                
+                <a rel="noopener" target="_blank" href="https://festival-musica-jostingfrontend.netlify.app/">
+                  <div class="contenedor__img">
+                    <img class="proyecto__img" src="img/concierto.png" alt="imagen proyecto">
+                  </div>
+                </a>
+                <div class="proyecto__descripcion">
+                  <h3>Rock & EDM Festival</h3>
+                  <p>Una landing page minimalista construida con HTML, estilizadas con SCSS y JavaScript, entres sus diferentes secciones puedes encontrar una galería de imágenes, información sobre los boletos y los horarios.</p>
+                </div>
+              
+              
+                  <ol class="proyecto__tecnologias">
+                    <li>HTML</li>
+                    <li>CSS & Sass</li>
+                    <li>JavaScript</li>
+                  </ol>
+
+            
+                <div class="proyecto__enlaces">
+                  <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/LandingMusicFest"><i class="bi bi-github"> GitHub</i></a>
+                  <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://festival-musica-jostingfrontend.netlify.app/"><i class="bi bi-link-45deg"> Link</i></a>
+                </div>
+            
+            </div>
+
+            <div class="proyecto">
+                
+              <a rel="noopener"  target="_blank" href="https://to-doapp-vite-037653.netlify.app/">
+                <div class="contenedor__img">
+                  <img class="proyecto__img" src="img/todolist.png" alt="imagen proyecto">
+                </div>
+              </a>
+              <div class="proyecto__descripcion">
+                <h3>ToDoList.js</h3>
+                <p>Proyecto de lista de tareas creada con tecnologías web estándar. La aplicación utiliza Vite para la compilación y empaquetado, lo que garantiza un rendimiento rápido y una carga eficiente de la aplicación.</p>
+              </div>
+            
+            
+                <ol class="proyecto__tecnologias">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+
+          
+              <div class="proyecto__enlaces">
+                <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/ToDoList.js"><i class="bi bi-github"> GitHub</i></a>
+                <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://to-doapp-vite-037653.netlify.app/"><i class="bi bi-link-45deg"> Link</i></a>
+              </div>
+          
+          </div>
+
+          <div class="proyecto">
+                
+            <a rel="noopener"  target="_blank"  href="https://jostingher.github.io/JuegoBlackJack_JS_Vite/">
+              <div class="contenedor__img">
+                <img class="proyecto__img" src="img/blackjack.png" alt="imagen proyecto">
+              </div>
+            </a>
+            <div class="proyecto__descripcion">
+              <h3>Black Jack Game</h3>
+              <p>
+                A través de este proyecto, he practicado mis habilidades en JavaScript, incluyendo el manejo de eventos, la manipulación del DOM y la lógica del juego. Utilizando para crear el proyecto Vite.</p>
+            </div>
+          
+          
+              <ol class="proyecto__tecnologias">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ol>
+
+        
+            <div class="proyecto__enlaces">
+              <a rel="noopener" target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/JuegoBlackJack_JS_Vite"><i class="bi bi-github"> GitHub</i></a>
+              <a rel="noopener" target="_blank"  class="proyecto__enlace" href="https://jostingher.github.io/JuegoBlackJack_JS_Vite/"><i class="bi bi-link-45deg"> Link</i></a>
+            </div>
+        
+        </div>
+
+
+
+            
+          <div class="proyecto">
+                
+            <a rel="noopener"  target="_blank" href="https://sweet-tartufo-4952ba.netlify.app/">
+              <div class="contenedor__img">
+                <img class="proyecto__img" src="img/appcomida.png" alt="imagen proyecto">
+              </div>
+            </a>
+            <div class="proyecto__descripcion">
+              <h3>AppComida</h3>
+              <p>Una landing page responsive presenta una aplicación de comida a domicilio, con un diseño moderno y fácil de navegar. Destaca por su adaptabilidad a distintos dispositivos y su enfoque en la experiencia del usuario.</p>
+            </div>
+          
+          
+              <ol class="proyecto__tecnologias">
+                <li>HTML</li>
+                <li>CSS & Sass</li>
+              </ol>
+
+        
+            <div class="proyecto__enlaces">
+              <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/https-github.com-JostingHer-JostingHer-deliverapp.github.io"><i class="bi bi-github"> GitHub</i></a>
+              <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/appcomida.github.io"><i class="bi bi-link-45deg"> Link</i></a>
+            </div>
+        
+        </div>
+
+
+
+
+        <div class="proyecto">
+                
+          <a rel="noopener"  target="_blank" href="https://lucky-taffy-a11462.netlify.app/">
+            <div class="contenedor__img">
+              <img class="proyecto__img" src="img/techpro.png" alt="imagen proyecto">
+            </div>
+          </a>
+          <div class="proyecto__descripcion">
+            <h3>TechPro</h3>
+            <p>una landing page responsive para la venta de audífonos, utilizando HTML y CSS. Destaco la optimización de imágenes para una carga rápida y un menú de hamburguesa responsive en dispositivos móviles. </p>
+          </div>
+        
+        
+            <ol class="proyecto__tecnologias">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ol>
+
+      
+          <div class="proyecto__enlaces">
+            <a  rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/techproaudifono"><i class="bi bi-github"> GitHub</i></a>
+            <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://lucky-taffy-a11462.netlify.app/"><i class="bi bi-link-45deg"> Link</i></a>
+          </div>
+      
+      </div>
+
+
+
+      <div class="proyecto">
+                
+        <a rel="noopener"  target="_blank" href="https://newzinejostingfrontend.netlify.app/">
+          <div class="contenedor__img">
+            <img class="proyecto__img" src="img/newcine.png" alt="imagen proyecto">
+          </div>
+        </a>
+        <div class="proyecto__descripcion">
+          <h3>NewZinema</h3>
+          <p>Una pagina web estática y de mis primeras prácticas en el desarrollo frontend. Esta web está dedicada a un cine, proporcionando información básica sobre las películas en cartelera, horarios y detalles del cine.</p>
+        </div>
+      
+      
+          <ol class="proyecto__tecnologias">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ol>
+
+    
+        <div class="proyecto__enlaces">
+          <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer/JostingHer-newcine.github.io"><i class="bi bi-github"> GitHub</i></a>
+          <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://newzinejostingfrontend.netlify.app/"><i class="bi bi-link-45deg"> Link</i></a>
+        </div>
+    
+    </div>
+          
+
+        
+            
+          
+
+      </div>
+   </section>
+   
+
+   <section id="Educacion" class="educacion">
+      <h2><i class="bi bi-arrow-right"></i>Educación</h2>
+
+     
+      <div class="educacion__contenedor">
+
+        <div class="formacion">
+          <i class="bi bi-mortarboard-fill"></i>
+           <div  class="formacion__contenedor">
+            <div class="formacion__cabecera">
+              <h3 class="cabecera__lugar">IES Santiago Hernández</h3>
+              <p class="cabecera__año">2023 - Actualidad</p>
+             </div>
+             <div class="formacion__info">
+              <h4>FP Desarrollo de Aplicaciones Web | DAW</h4>
+              <p>Actualmente, estoy formandome en desarrollo web, los temas en los que se hace principal incapie durante el ciclo son familiarizarse con sistemas operativos Windows y Linux a traves de maquinas virtuales el uso de lenguajes de marcas y estilos como HTML, CSS, XML. Ademas, estoy aprendiendo tecnologias de lado del backend como Java y SQL mediante Oracle BD, utilizando Visual Studio Code, Eclipse, Oracle SQL Developer como IDEs.</p>
+             </div>
+           </div>
+        </div>
+
+        <div class="formacion">
+          <i class="bi bi-mortarboard-fill"></i>
+           <div  class="formacion__contenedor">
+            <div class="formacion__cabecera">
+              <h3 class="cabecera__lugar">Universidad Nacional de Educación a Distancia | UNED</h3>
+              <p class="cabecera__año">2021 - 2023</p>
+             </div>
+             <div class="formacion__info">
+              <h4>Grado en Administración y Dirección de Empresas | GADE</h4>
+              <p>Durante estos dos años, los temas que más me llamaron la atención y en los que me centré fueron la contabilidad financiera, el análisis financiero y las estadísticas empresariales (descriptivas e inferenciales). Ya que, tras completar mi formación en desarrollo web, tengo la intención de seguir formándome en ADE y llegar a combinar ambas habilidades.</p>
+             </div>
+           </div>
+        </div>
+
+        <div class="formacion">
+          <i class="bi bi-mortarboard-fill"></i>
+           <div  class="formacion__contenedor">
+            <div class="formacion__cabecera">
+              <h3 class="cabecera__lugar">Deusto Formación </h3>
+              <p class="cabecera__año">2021 - 2022</p>
+             </div>
+             <div class="formacion__info">
+              <h4>Diseño Web</h4>
+              <p>
+                Durante mi formación en GADE, decidí estudiar diseño web en mi tiempo libre. Fue mi primer acercamiento al entorno web. El curso se centraba en la teoría del diseño web, el prototipado de páginas y la maquetación de sitios web utilizando HTML y CSS, aplicando Responsive Web Design. También tuve una breve introducción al desarrollo web con JavaScript.</p>
+             </div>
+           </div>
+        </div>
+
+        <div class="formacion">
+          <i class="bi bi-mortarboard-fill"></i>
+           <div  class="formacion__contenedor">
+            <div class="formacion__cabecera">
+              <h3 class="cabecera__lugar">
+               DevTalles - Plataforma de cursos online </h3>
+              <p class="cabecera__año">2023 - 2024</p>
+             </div>
+             <div class="formacion__info">
+              <h4>Curso de JavaScript moderno</h4>
+              <p>Este empieza desde los conceptos fundamentales hasta un nivel avanzado. Los temas que  se abordan son son:
+
+                Fundamentos de JavaScript, uso de npm, programacion asincrona con promesas, callbacks,
+                manejo de herramientas como Vite.
+                Conversión a otras versiones de JavaScript y despliegue de aplicaciones en plataformas como Netlify y GitHub Page.
+                
+                Decidí tomar este curso para tener una buena base en vanilla JavaScript para luego poder dar el salto a explorar frameworks (React)
+              </p>
+             </div>
+           </div>
+        </div>
+
+
+        
+      </div>
+     
+
+   </section>
+
+
+
+
+   <section id="Skills" class="skills">
+      <h2><i class="bi bi-arrow-right"></i>Skills</h2>
+
+      <div class="contenedor__skills">
+        <div>
+          <h3>Tecnologias Frontend</h3>
+          <div class="tecnologias__img">
+            <div>
+              <img src="img/html-5 (1).png" alt="imagen tecnologias">
+              <p>HTML</p>
+            </div>
+            <div>
+              <img src="img/css-3 (1).png" alt="imagen tecnologias">
+              <p>CSS</p>
+            </div>
+            <div>
+              <img src="img/sass-1-logo.png" alt="imagen tecnologias">
+              <p>SASS</p>
+            </div>
+            <div>    
+              <img src="img/js.png" alt="imagen tecnologias">
+              <p>JavaScript</p>
+            </div>
+        </div>
+      </div>
+
+          <div>
+            <h3>Aprendiendo...</h3>
+            <div class="tecnologias__img">
+              <div>
+                <img src="img/java (1).png" alt="imagen tecnologias">
+                <p>Java</p>
+              </div>
+              <div>
+                <img src="img/sql.jpg" alt="imagen tecnologias">
+                <p>SQL</p>
+              </div>
+              <div>
+                <img src="img/linux.png" alt="imagen tecnologias">
+                <p>Linux</p>
+              </div>
+              <div>    
+                <img src="img/git.png" alt="imagen tecnologias">
+                <p>Git</p>
+              </div>
+            </div>
+
+     
+      </div>
+
+   </section>
+
+
+
+   <section id="Contacto" class="contacto">
+    <h2><i class="bi bi-arrow-right"></i>Contacto</h2>
+        <div class="contenedor__contacto">
+          <div class="contacto__redes">
+            <h3>Redes sociales</h3>
+            <div class="contacto__enlaces">
+              <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://github.com/JostingHer"><i class="bi bi-github"> GitHub</i></a>
+              <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="bi bi-linkedin"> LinkedIn</i></a>
+              <a rel="noopener"  target="_blank"  class="proyecto__enlace" href="https://wa.me/641695040?text=¡Estoy+interesado!"><i class="bi bi-whatsapp"> 641695040</i> </a>
+            
+            </div>
+
+          </div>
+          <div>
+            <h3>Correo</h3>
+            <div class="copy-link-wrapper">
+              <input title="copiar" id="copy-link-input" type="text" required value="jostingjmhernandez@gmail.com" readonly>
+              <button id="copy-text" class="copy-btn" type="button">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M9 15l6 -6" />
+                      <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                      <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                  </svg>
+                  <span>Copiar</span>
+              </button>
+          </div>
+          </div>
+
+
+
+
+
+
+        </div>
+   </section>
+ </main>
+
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
